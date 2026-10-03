@@ -251,3 +251,27 @@ html {
     font-size: 1rem;
     text-align: center;
 }
+/* --- Tambahan Tema Neon Dark --- */
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e) !important;
+}
+
+.card, .container, header, nav, section {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 242, 254, 0.1) !important;
+}
+
+h1, h2, .logo {
+  background: linear-gradient(45deg, #00f2fe, #4facfe, #f72585) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.btn, button, a.button {
+  background: linear-gradient(45deg, #4facfe, #00f2fe) !important;
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.4) !important;
+  border: none !important;
+}
